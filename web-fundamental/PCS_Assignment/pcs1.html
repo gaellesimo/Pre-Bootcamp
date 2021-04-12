@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+        Basic I
+        </title>
+    </head>
+    <body>
+        <h1>
+        What language do you love?
+        </h1>
+        <p>
+        I love HTML!
+        </p>
+        <form>
+            <label for="first_name">First Name:</label>
+            <input type="text" id="first_name" name="first_name">
+            <label for="last_name">Last Name:</label>
+            <input type="text" id="last_name" name="last_name">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password">
+
+            <br>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="decline">Prefer not to say</label>
+            <input type="radio" id="decline" name="gender" value="decline">
+            </br>
+            <p>
+                What is your gender?
+            </p>
+            <select name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="decline">Prefer not to say</option>
+            </select>
+
+            <label for="blue">Blue</label>
+            <input type="checkbox" id="blue" name="color" value="blue">
+            <label for="green">Green</label>
+            <input type="checkbox" id="green" name="color" value="green">
+            <label for="red">Red</label>
+            <input type="checkbox" id="red" name="color" value="red">
+            <label for="black">Black</label>
+            <input type="checkbox" id="black" name="color" value="black">
+            <label for="purple">Purple</label>
+            <input type="checkbox" id="purple" name="color" value="purple">
+
+            <textarea name="description"></textarea>  <!-- to input a very long text -->
+            
+            <input type="hidden" name="id" value="7">  <!-- Input type hidden is similar to text fields, except they do not show on the page and users can not enter anything into them. This is useful for the back-end authentication and passing data.  -->
+
+            <input type="submit" value="Submit">       <!--  to create a submit button  -->
+
+
+            
+        </form>
+    </body>
+</html>
