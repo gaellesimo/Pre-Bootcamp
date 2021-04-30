@@ -1,0 +1,221 @@
+*{
+    margin:0;
+    padding: 0;
+}
+#wrapper {
+    background-color: rgb(11, 2, 44);
+}
+
+header {
+    font-size: 2em;
+    letter-spacing: 3px;
+
+} 
+
+.flex-container{
+    display: flex;
+}
+
+.flex-container > * {
+    flex: 1;
+}
+
+.navy{
+    margin: 0 0px;
+    width: 1250px;
+    display: flex;
+    align-items: center;
+    
+} 
+.col-3 {
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 60px;
+    text-align: center;
+    justify-content: space-between;  
+    margin: 20px 
+}
+.col-3 .un{
+    margin: 15px;
+    color:rgb(90, 35, 141)
+}
+
+.col3 .un #quatre{
+    color:violet
+}
+.col-2 {
+    width: 1050px;
+    display: flex; 
+    margin: 20px; 
+}
+.col-2 #double{
+    color:rgb(79, 79, 184);
+    margin: 10px;
+    font-size: 40px;
+}
+.col-2 #comic{
+    color:whitesmoke;
+    margin: 10px;
+    font-size: 40px;
+}
+
+h3{
+    color: whitesmoke;
+}
+h5{
+    color: whitesmoke;
+}
+
+#room{
+    background-color: whitesmoke;
+    margin:20px;
+
+}
+
+/* #info-boxe{
+    width: 1250px;
+} */
+
+.info-boxe img{
+    width: 1185px;
+    margin: 20px;
+}
+
+.info{
+    background-color: royalblue;
+    margin :15px;
+    text-align: center;
+    border: 1px solid black;
+    margin: 0 10px;
+    color: whitesmoke;  
+}
+
+.info img{
+    width: 50px;
+    margin: 20px;
+    padding: 0 10px;
+}
+
+.info #ampersand{
+    display: inline;
+    margin: 130px;  
+}
+
+.info #evenless{
+    margin:20px;
+    border-radius: 5px;
+    background-color: rgb(107, 134, 218);
+    float:left;
+    width: 120px;
+    min-height: 10px;
+    text-align: center;
+    padding: 15px;
+}
+
+#raison{
+    margin:0px;
+}
+
+.info5 #premier{
+    margin: 5px;
+    padding: 10px;
+}
+
+.info5 #secondo{
+    margin: 15px;
+}
+
+.info_6 img{
+    width: 380px;  
+    padding: 2px;
+    min-height: 290px;
+}
+
+.info_6 p{
+    margin: 7px;
+}
+
+.info_6 #tertio{
+    margin:20px;
+    border-radius: 5px;
+    float:left;
+    width: 120px;
+    min-height: 10px;
+    text-align: center;
+    padding: 1px;
+    font-size: 20px;
+    color:rgb(107, 134, 218);
+}
+
+#main_3{
+    margin: 10px;
+    padding: 5px;
+}
+
+#dream{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 10px;
+}
+
+.info p {
+    margin:10px;
+    padding: 15px;
+}
+
+.info_6{
+    margin :10px;
+    text-align: center;
+    margin: 5px;
+    padding: 1px;
+
+}
+
+.info_6 #maison{
+    margin:20px;
+    border-radius: 5px;
+    float:left;
+    width: 120px;
+    min-height: 10px;
+    padding: 15px;
+    font-size: 20px;
+    
+}
+
+.info_6 #maisonette{
+    float:left;
+    width: 280px;
+    min-height: 1px;
+    text-align: center;
+    padding: 36px;
+    font-size: 20px;
+    font-style: italic;
+    background-color:rgb(198, 205, 226);
+    float: left;
+}
+
+.info_6 #maisone{
+    float:left;
+    width: 220px;
+    min-height: 10px;
+    text-align: center;
+    padding: 15px;
+    font-size: 15px;
+    
+}
+
+.main7{
+    text-align: center;
+    padding: 40px;
+    background-color:rgb(198, 205, 226);
+} 
+
+.main7 #macro{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,29 @@
+Open Terminal  
+Navigate to your Desktop  
+// cd Desktop
+Create a new directory, call it 'test'
+mkdir test  
+Make files called index.html, styles.css, commands.txt inside the test directory 
+// touch test/index.html,  
+// touch test/styles.css
+// touch test/commands.txt
+Make a copy of index.html and call it index_2.html  
+cp test/index.html test/index_2.html
+Navigate back to your desktop and make another directory, call it 'destination' 
+// cd ..
+// mkdir destination 
+Move the index_2.html file to the 'destination' directory  
+mv ../test/index_2.html .
+In the 'test' directory, remove the 'styles.css' file  Now, check and see what files are in the 'test' and 'destination' directories  
+// cd ..
+// rm styles.css
+// ls
+//ls ../destination
+Remove/delete the 'destination' directory 
+// cd .. 
+// rm -rf destination
+Spend 10 minutes researching some other terminal commands and keep them in mind for the future!  
+// ls, find, man, import, cat
+Write the commands you used to do the above and save them in commands.txt. Then upload it below!  
+Display the contents of commands.txt in the terminal
+// cat commands.txt

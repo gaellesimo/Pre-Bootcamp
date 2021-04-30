@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Registration Form</title>
+	<meta name="description" content="A really cool site!">
+</head>
+<body>
+	<h3>My Registration Form</h3>
+    <form>   
+        <label>
+            First Name:<input type="text" name="name">
+        </label>
+        <p></p>
+        <label>
+            Last Name:<input type="text" name="name">
+        </label>
+        <p></p>
+        <label>
+            Email<input type="text" name="name">
+        </label>
+        <p></p>
+        <label for="password">Password</label>
+            <input type="password" id="password" name="password">
+        <p></p>
+        <label for="pw_confirm">Pw Confirm</label>
+            <input type="password" id="pw_confirm" name="password_confirmation">
+        <p></p>
+        <label for="date">Birthdate</label>
+        <input type="date" name="date">
+        
+        <p></p>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        
+        <input type="radio" id="decline" name="gender" value="decline">    
+        <label for="decline">Other</label>
+        
+        <p>A short description about yourself:</p>
+        <textarea name="description"></textarea>
+        <p>Favorite Language
+            <select name="gender">
+            <option value="male">Javascript</option>
+            <option value="female">CSS</option>
+            <option value="decline">HTML</option>
+            </select>
+        </p>
+        <input type="submit" value="Submit">
+    </form>    
+</body>
+</html>

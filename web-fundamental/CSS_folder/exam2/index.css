@@ -1,0 +1,215 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.flex-container{
+    width:1200px;
+    min-height:1425px;
+    margin: 0 auto;
+    background-color: black;
+}
+#header{
+    width: 1180px;
+    min-height: 110px;
+    background:#1a1a1a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 0px;
+    margin-left: 10px;
+}
+#header .first{
+    color: whitesmoke;
+}
+#nav {
+    align-items: center;
+    display:flex;
+    justify-content: flex-start;
+    /* border: 1px solid white; */
+    width: 1180px;
+    margin-left: 10px;
+    background:#3f3e3e;
+}
+#nav .second{
+    padding-right: 20px;
+    margin-right: 20px;
+    border-right: 2px solid #545455;
+    color: rgb(241, 236, 236);
+}
+#nav .third{
+    padding-right: 20px;
+    margin-right: 20px;
+    border-right: 2px solid #545455;
+}
+#nav .four{
+    padding-right: 20px;
+    margin-right: 20px;
+    border-right: 2px solid #545455;
+}
+#nav .five{
+    padding-right: 20px;
+    margin-right: 20px;
+    border-right: 2px solid #545455;
+}
+#nav .six{
+    padding-right: 20px;
+    margin-right: 20px;
+    border-right: 2px solid #545455;
+}
+#nav .seven{
+    padding-right: 300px;
+    border-right: 2px solid #545455;
+    
+}
+#nav a{
+    text-decoration: none;
+    font-size: 18px;
+    margin:20px;
+    color:rgb(119, 124, 129);
+    font-weight: bold;
+    
+}
+#head {
+    min-height: 100px;
+}
+#head img{
+    width: 1180px;
+    margin-left: 10px;
+    padding-bottom: 0px;
+}
+
+#icon{
+    display: flex; 
+    width: 1180px;
+    margin-left: 10px;
+    color:white;
+    border-top: 5px solid rgb(77, 76, 76);
+    min-height: 10px;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(27, 27, 27);
+    padding-top: 0px;
+    
+}
+#icon img{
+    /* width: 20px; */
+    weight: 10px;
+    margin-right: 20px;
+    margin-left: 0px;
+    margin-bottom: 75px;
+}
+#icon .icon1{
+    margin:15px;
+}
+#icon .icon1 h3{
+    color: #f4822c;
+    font-size: 22px;
+    margin-bottom: 2px;
+}
+#icon .icon1 p{
+    color: rgb(238, 232, 221);
+}
+
+#icon2 {
+    color:whitesmoke;
+    width: 1180px;
+    padding: 20px;
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;
+    background-color:rgba(17, 14, 14, 0.719); 
+    margin-left: 10px; 
+    background-image: linear-gradient(45deg, #000000 25%, #000000 25%, #000000 25%, #000000 25%, #000000 37.50%, #121111 37.50%, #121111 50%, #000000 50%, #000000 75%, #000000 75%, #000000 75%, #000000 75%, #000000 87.50%, #121111 87.50%, #121111 100%);
+    background-size: 5.66px 5.66px;   
+}
+#icon2 p{
+    margin-top: 10px;
+}
+#icon2 #icon3{
+    color:whitesmoke;
+    margin:30px; 
+}
+#icon2 #icon3 h1{
+    color: whitesmoke;
+} 
+#icon2 input{
+    margin: 40px;
+    background-color: #f4822c; 
+    border-radius: 10px;
+    width: 135px;
+    padding :15px;
+    color:whitesmoke;
+    font-weight: bold;
+    font-size: 20px; 
+}
+#icon5{
+    display: flex; 
+    width: 1180px;
+    margin-left: 10px;
+    color:white;
+    min-height: 50px;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(27, 27, 27);
+}
+#icon5 h2{
+    color: #f4822c;
+    margin-top: 15px;
+}
+#icon5 p{
+    margin-top: 10px;
+    color: rgb(241, 239, 236);
+}
+#icon5 img{
+    width: 260px;
+    border: 5px solid rgb(83, 83, 83);
+    margin:2px;
+}
+#icon6{
+    display: flex; 
+    width: 1180px;
+    margin-left: 10px;
+    color:white;
+    min-height: 30px;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(27, 27, 27);
+}
+
+#icon6 a{
+    text-decoration: none;
+    font-size: 20px;
+    margin:20px;
+    font-weight: bold;
+    float:left;
+    color: #f4822c;
+}
+#icon6 h2{
+    margin:20px;
+    color: rgb(241, 239, 236);
+}
+#icon7 a{
+    text-decoration: none;
+    font-size: 15px;
+    margin:1px;
+    font-weight: bold;
+    float:left;
+    color: gray;
+    margin-left : 1050px;
+    color: rgb(241, 239, 236);
+}
+#icon7{
+    display: flex; 
+    width: 1180px;
+    margin-left: 10px;
+    min-height: 50px;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(27, 27, 27);
+}

@@ -1,0 +1,54 @@
+/*CSS reset settings here*/
+*{ 
+    margin: 20px;
+    padding: 0px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#wrapper{
+    background-color: blueviolet;
+    margin-right: 20px;
+    width: 1000px;
+    height: 20px;
+    overflow: hidden;
+    height: auto;
+} 
+#header{
+    min-height: 140px;
+    background-color: red;
+    margin: 50px;
+    display:block;
+    border-radius: 20px;
+}
+#navigation{
+    min-height: 10px;
+    width: 180px;
+    background-color: green;
+    margin: 20px;
+    margin-top: 2px;
+    float:left;
+    border-radius: 20px;
+}
+#main_content{
+    
+    width: 580px;
+    background-color: black;
+    color: white;
+    min-height: 0px;
+    float:right;
+    margin: 20px;
+    padding:70px;
+    border-radius: 20px;
+    margin-left: 0px;
+}
+#main_contenant{
+    min-height: 10px;
+    width: 950px;
+    margin-top: 20px;
+    background-color: purple;
+    margin-left: 0px;
+    float:right;
+    border-radius: 20px;
+    text-align: center;
+}

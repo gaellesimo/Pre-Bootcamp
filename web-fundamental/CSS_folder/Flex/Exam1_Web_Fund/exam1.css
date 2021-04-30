@@ -1,0 +1,202 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#container{
+    width:992px;
+    min-height:1555px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    }
+    #header{
+        width: 992px;
+        min-height: 110px;
+        background:#1a1a1a;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+    h3{
+        color: white;
+    }
+    #nav{
+        width: 992;
+        min-height:43px;
+        background:#484848;
+        display: flex;
+        justify-content: start;
+        align-items: baseline;
+        padding: 20px;
+    }
+    
+    .first{
+        padding-right: 20px;
+        margin-right: 20px;
+        border-right: 1px solid #9ea1a2;
+        color: white;
+    }
+    .sed{
+        padding-right: 20px;
+        margin-right: 20px;
+        border-right: 1px solid #9ea1a2;
+        color:#9ea1a2;
+    }
+    .thi{
+        padding-right: 20px;
+        margin-right: 20px;
+        border-right: 1px solid #9ea1a2;
+        color: #9ea1a2;
+    }
+    .foth{
+        padding-right: 20px;
+        margin-right: 20px;
+        border-right: 1px solid #9ea1a2;
+        color: #9ea1a2;
+    }
+    .fiv{
+        padding-right: 20px;
+        margin-right: 20px;
+        border-right: 1px solid #9ea1a2;
+        color:#9ea1a2;
+    }
+    .sixth{
+        padding-right: 300px;
+        border-right: 1px solid #9ea1a2;
+        color: #9ea1a2;
+    }
+    #photo{
+        width: 992px;
+        min-height: 363px;
+        background:grey;
+    }
+    .imgph{
+        width: 992px;
+        min-height: 363px;
+    }
+    #feature{
+        width: 992px;
+        min-height:160px;
+        background: #1a1a1a;
+        display: flex;
+        justify-content:baseline;
+        align-items: center;
+        padding:20px ;
+    }
+    .feat1{
+        padding-top:  28px;
+        margin-right: 10px ;
+        margin-left: 10px;
+    }
+    .feat2{
+        padding-top:  27px;
+        margin-right: 10px ;
+        margin-left: 10px;
+    }
+    .feat3{
+        padding-top:  28px;
+        margin-right: 10px ;
+        margin-left: 10px;
+    }
+    .feat4{
+        padding-top:  27px;
+        margin-right: 10px ;
+        margin-left: 10px;
+    }
+    h5{
+        color: #f4822c;
+    }
+    p{
+        color: white;
+    }
+    #bio{
+        width: 992px;
+        min-height:150px;
+        background:magenta ;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #040404;
+    }
+    .bio1{
+        width: 695px;
+        height: 135px;
+        padding-left: 25px ;
+        padding-top: 20px;
+    }
+    .bio2{
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 30px;
+        padding-bottom: 20px;
+        padding-top: 8px;
+        margin-right: 20px ;
+        border-radius: 5px;
+        width:120px;
+        height: 32px;
+        background-color: #ef8c41;
+
+    }    
+    #info{
+        width: 992px;
+        min-height:349px;
+        background-color:#484848;
+    }
+    .infoheader{
+        width: 992px;
+        min-height:71px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+    h6{
+        color: #ef8c41 ;
+    }
+    .infomain{
+        width: 992px;
+        min-height:278px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .infomain0{
+        width: 220px;
+        height: 286;
+        padding-bottom: 23px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .infomain1{
+        width: 220px;
+        height: 286;
+        padding-bottom: 28px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .infomain2{
+        width: 260px;
+        height: 286;
+        padding-bottom: 25px;
+        margin-left: 23px;
+        margin-right: 20px;
+    }
+    .infomain3{
+        width: 220px;
+        height: 290;
+        padding-bottom: 25px;
+        margin-right: 20px;
+    }
+    #footer{
+        width: 992px;
+        min-height: 27px;
+        background-color:#484848;
+        display: flex;
+        justify-content: flex-end;
+        padding: 25px;
+    }
+    #footer h6{
+        color:  #9ea1a2;
+    }
